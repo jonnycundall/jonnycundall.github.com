@@ -2,13 +2,13 @@
 layout: post
 title: "Let's start porting!"
 description: ""
-category: 
+category:
 tags: [f#, c#, fp]
 ---
 {% include JB/setup %}
 So, I have my project to convert. Now what?
 
-I will start by finding what looks like the easiest part of the project to convert. Without editing the existing c# code, I can create a 'shadow' F# project, and start implemnting replacemnts, type by type, until I am ready to replace a whole project.
+I will start by finding what looks like the easiest part of the project to convert. Without editing the existing c# code, I can create a 'shadow' F# project, and start implementing replacements, type by type, until I am ready to replace a whole project.
 
 Looking at the OrigoDB project we've got:
 
