@@ -39,7 +39,7 @@ namespace OrigoDB.Core.Utilities
 }
 {% endhighlight %}
 That's pretty easy to convert to F#. In fact it looks a little more elegant already!
-{% highlight f# %}
+{% highlight fsharp %}
 namespace OrigoDB.CoreFSharp.Utilities
 
 type CompressionAlogrithm = Gzip | Deflate | Custom
